@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONEXIATE | Red de Beneficios, Descuentos y Negocios Aliados en Colombia</title>
+
+    <meta name="description"
+        content="Conexiate es la red multicliente de beneficios y fidelización operada por SERVIPRO EA SAS (NIT 901768996-5) en Pereira, Risaralda. Ahorra con descuentos exclusivos en comercios aliados.">
+    <meta name="keywords"
+        content="conexiate, beneficios, descuentos, membresia, cupones, comercios aliados, pereira, risaralda, servipro ea sas, fidelizacion, colombia">
+    <meta name="author" content="SERVIPRO EA SAS">
+
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://conexiate.co">
+    <meta property="og:title" content="CONEXIATE | Red de Beneficios y Negocios Aliados">
+    <meta property="og:description"
+        content="Ahorra hasta un 50% en comercios aliados en Colombia. Redime con código digital en segundos con Conexiate.">
+    <meta property="og:locale" content="es_CO">
+
+    <!-- Fuentes Google Fonts & Iconos FontAwesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Estilos CSS Modernos -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="96x96" href="./iconos/favicon-96x96.png" />
+    <link rel="icon" type="image/svg+xml" href="./iconos/favicon.ico" />
+    <link rel="shortcut icon" href="./iconos/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./iconos/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Conexiate" />
+    <link rel="manifest" href="./iconos/site.webmanifest" />
+</head>
+
+<body>
+
+    <!-- ===== HEADER MODERNO ===== -->
+    <header class="header">
+        <div class="header-container">
+
+            <a href="/principal" class="logo" title="Conexiate - Inicio">
+                <img src="./img/logo-conexia-withouth-white.png" alt="Logo Conexiate">
+            </a>
+
+            <!-- NAVEGACIÓN PRINCIPAL -->
+            <nav class="navbar" id="mainNavbar">
+                <ul>
+                    <li><a href="/principal" class="active">Inicio</a></li>
+                    <li><a href="/servicios">Beneficios</a></li>
+                    <li><a href="/nosotros">Quiénes Somos</a></li>
+                    <li><a href="/contacto">Contacto</a></li>
+                </ul>
+
+                <!-- Botón CTA para el menú móvil -->
+                <div class="mobile-cta-wrapper" style="display: none;">
+                    <a href="https://app.conexiate.co/#/login" target="_blank" class="btn-app-cta"
+                        style="width: 100%; margin-top: 10px;">
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        <span>Ingresar a la App</span>
+                    </a>
+                </div>
+            </nav>
+
+            <!-- ACCIONES DEL HEADER: TELÉFONO + BOTÓN APP DESTACADO -->
+            <div class="header-actions">
+                <a href="tel:+573146388529" class="header-phone" title="Atención telefónica">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+57 314 638 8529</span>
+                </a>
+
+                <!-- BOTÓN SÚPER LLAMATIVO CON SHIMMER & GLOW -->
+                <a href="https://app.conexiate.co/#/login" target="_blank" class="btn-app-cta" id="btnHeaderApp">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    <span>Ingresar a la App</span>
+                </a>
+
+                <!-- BOTÓN MENÚ MÓVIL (HAMBURGUESA) -->
+                <div class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fa-solid fa-sparkles"></i> Red Multicliente de Fidelización Comercial en Colombia
+            </div>
+
+            <h1>
+                Tu Red de Beneficios, Descuentos y <br>
+                <span class="gradient-text">Negocios Aliados</span>
+            </h1>
+
+            <p>
+                Ahorra hasta un <strong>50%</strong> en restaurantes, salud, belleza, entretenimiento y servicios en
+                Colombia.
+                Redime tus beneficios con código digital en segundos y accede a promociones exclusivas con
+                <strong>Conexiate</strong>.
+            </p>
+
+            <div class="hero-buttons">
+                <!-- BOTÓN PRINCIPAL LLAMATIVO HACIA LA APP WEB -->
+                <a href="https://app.conexiate.co/#/login" target="_blank" class="btn-hero-primary" id="btnHeroApp">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span>Ingresar a la App</span>
+                </a>
+
+                <a href="/servicios" class="btn-hero-secondary">
+                    <i class="fa-solid fa-tags"></i>
+                    <span>Explorar Beneficios</span>
+                </a>
+            </div>
+
+            <!-- CONTADORES DE IMPACTO -->
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">+100</span>
+                    <span class="stat-label">Comercios Aliados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">Hasta 50%</span>
+                    <span class="stat-label">Descuentos Reales</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Redención Digital QR / PIN</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">12 Meses</span>
+                    <span class="stat-label">Gratis para Negocios</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CÓMO FUNCIONA CONEXIATE ===== -->
+    <section class="container">
+        <div class="section-header">
+            <span class="section-tag">Fácil y Rápido</span>
+            <h2 class="section-title">¿Cómo Funciona Conexiate?</h2>
+            <p class="section-subtitle">Disfrutar de los mejores beneficios en tus comercios favoritos solo te toma tres
+                simples pasos desde tu celular.</p>
+        </div>
+
+        <div class="steps-grid">
+            <div class="step-card">
+                <span class="step-number">01</span>
+                <div class="step-icon">
+                    <i class="fa-solid fa-compass"></i>
+                </div>
+                <h3>1. Explora Beneficios</h3>
+                <p>Ingresa a la app y descubre promociones exclusivas en gastronomía, bienestar, moda, servicios y
+                    entretenimiento cerca de ti.</p>
+            </div>
+
+            <div class="step-card">
+                <span class="step-number">02</span>
+                <div class="step-icon">
+                    <i class="fa-solid fa-qrcode"></i>
+                </div>
+                <h3>2. Genera tu Código</h3>
+                <p>Selecciona el beneficio que deseas y obtén tu código digital o cupón QR instantáneo desde tu cuenta
+                    de afiliado.</p>
+            </div>
+
+            <div class="step-card">
+                <span class="step-number">03</span>
+                <div class="step-icon">
+                    <i class="fa-solid fa-wallet"></i>
+                </div>
+                <h3>3. Redime y Ahorra</h3>
+                <p>Presenta el código en el establecimiento aliado y recibe tu descuento o cortesía de forma inmediata
+                    al pagar.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CATEGORÍAS DE BENEFICIOS DESTACADOS ===== -->
+    <section class="container">
+        <div class="section-header">
+            <span class="section-tag">Categorías</span>
+            <h2 class="section-title">Beneficios Destacados de la Red</h2>
+            <p class="section-subtitle">Convenios estratégicos en los sectores que más disfrutas y utilizas en tu día a
+                día.</p>
+        </div>
+
+        <div class="services-grid">
+
+            <!-- Card 1: Gastronomía -->
+            <div class="card">
+                <div class="card-img-wrapper">
+                    <img src="./img/service1.jpg" alt="Gastronomía y Restaurantes">
+                    <span class="card-badge">Hasta 40% OFF</span>
+                </div>
+                <div class="card-body">
+                    <h3>Gastronomía & Cafés</h3>
+                    <p>Descuentos especiales, combos 2x1 y cortesías exclusivas en los mejores restaurantes, cafeterías
+                        y gastrobares de la región.</p>
+                    <a href="/servicios" class="btn-card">
+                        <span>Ver Convenios</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2: Salud y Belleza -->
+            <div class="card">
+                <div class="card-img-wrapper">
+                    <img src="./img/service2.jpg" alt="Salud y Belleza">
+                    <span class="card-badge">Tarifas Preferenciales</span>
+                </div>
+                <div class="card-body">
+                    <h3>Salud, Estética & Bienestar</h3>
+                    <p>Cuida de ti y tu familia con descuentos en odontología, centros de estética, spas, peluquerías y
+                        acondicionamiento físico.</p>
+                    <a href="/servicios" class="btn-card">
+                        <span>Ver Convenios</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 3: Entretenimiento & Comercio -->
+            <div class="card">
+                <div class="card-img-wrapper">
+                    <img src="./img/service3.jpg" alt="Comercio y Ocio">
+                    <span class="card-badge">Promociones 2026</span>
+                </div>
+                <div class="card-body">
+                    <h3>Entretenimiento & Servicios</h3>
+                    <p>Planes de recreación, talleres automotrices, soluciones tecnológicas y servicios profesionales
+                        respaldados y verificados.</p>
+                    <a href="/servicios" class="btn-card">
+                        <span>Ver Convenios</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== BANNER CALLOUT PARA COMERCIOS ALIADOS ===== -->
+    <section class="container">
+        <div class="business-callout">
+            <div class="business-info">
+                <span class="section-tag"
+                    style="background: rgba(0, 240, 255, 0.15); color: #00f0ff; border-color: rgba(0, 240, 255, 0.3);">Para
+                    Emprendedores y Comercios</span>
+                <h2>¿Tienes un Negocio? Multiplica tus Ventas con Conexiate</h2>
+                <p>Únete a nuestra red multicliente. Publica tus ofertas, recibe un flujo continuo de clientes
+                    fidelizados y valida cupones digitales en 3 segundos desde tu propio panel.</p>
+                <div class="business-perks">
+                    <div class="perk-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>12 meses de cortesía publicitaria</span>
+                    </div>
+                    <div class="perk-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>Sin comisiones abusivas</span>
+                    </div>
+                    <div class="perk-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>Validación en tiempo real</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="/contacto" class="btn-business">
+                <i class="fa-solid fa-store"></i>
+                <span>Afiliar mi Negocio Gratis</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ===== CARACTERÍSTICAS / RESPALDO ===== -->
+    <section class="container">
+        <div class="section-header">
+            <span class="section-tag">Seguridad y Respaldo</span>
+            <h2 class="section-title">Garantía y Confianza Conexiate</h2>
+            <p class="section-subtitle">Tecnología robusta diseñada para una experiencia transparente, segura y conforme
+                a la ley colombiana.</p>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h4>Blindaje y Seguridad</h4>
+                <p>Pagos procesados con pasarela certificada PCI-DSS y protección de datos según Ley 1581 de 2012.</p>
+            </div>
+
+            <div class="feature-item">
+                <i class="fa-solid fa-bolt"></i>
+                <h4>Redención Inmediata</h4>
+                <p>Validación de cupones al instante sin trámites engorrosos ni papeleos.</p>
+            </div>
+
+            <div class="feature-item">
+                <i class="fa-solid fa-gift"></i>
+                <h4>Rifas y Recompensas</h4>
+                <p>Sorteos comerciales y programas de referidos exclusivos para afiliados activos.</p>
+            </div>
+
+            <div class="feature-item">
+                <i class="fa-solid fa-headset"></i>
+                <h4>Atención Personalizada</h4>
+                <p>Canal de soporte directo vía WhatsApp y correo para resolver cualquier inquietud.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER INSTITUCIONAL & LEGAL (BLINDAJE SIC) ===== -->
+    <footer>
+        <div class="footer-container">
+
+            <!-- Columna 1: Identidad Corporativa -->
+            <div class="footer-col footer-about">
+                <a href="/principal" class="logo">
+                    <img src="./img/logo-conexia-withouth-white.png" alt="Logo Conexiate" style="height: 44px;">
+                </a>
+                <p>
+                    <strong>Conexiate</strong> es la plataforma tecnológica multicliente de beneficios, fidelización
+                    comercial y descuentos para afiliados y comercios en Colombia.
+                </p>
+                <div class="footer-entity-badge">
+                    Operado por: <strong>SERVIPRO EA SAS</strong><br>
+                    NIT: <strong>901768996-5</strong> • Pereira, Risaralda
+                </div>
+            </div>
+
+            <!-- Columna 2: Enlaces Rápidos -->
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <ul class="footer-links">
+                    <li><a href="/principal"><i class="fa-solid fa-chevron-right"></i> Inicio</a></li>
+                    <li><a href="/servicios"><i class="fa-solid fa-chevron-right"></i> Beneficios y Convenios</a></li>
+                    <li><a href="/nosotros"><i class="fa-solid fa-chevron-right"></i> Quiénes Somos</a></li>
+                    <li><a href="/contacto"><i class="fa-solid fa-chevron-right"></i> Contacto y Soporte</a></li>
+                    <li><a href="https://app.conexiate.co/#/login" target="_blank"
+                            style="color: var(--primary-cyan); font-weight: 600;"><i
+                                class="fa-solid fa-arrow-right-to-bracket"></i> Ingresar a la App</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna 3: Contacto Oficial -->
+            <div class="footer-col">
+                <h4>Contacto Oficial</h4>
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Pereira, Risaralda, Colombia</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+57 314 638 8529</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>soporte@conexiate.co</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <span>Lun - Sáb: 8:00 AM - 6:00 PM</span>
+                </div>
+            </div>
+
+            <!-- Columna 4: Cumplimiento Legal y Enlace SIC -->
+            <div class="footer-col">
+                <h4>Marco Jurídico</h4>
+                <ul class="footer-links">
+                    <li><a href="javascript:void(0)" onclick="openLegalModal('terms')"><i
+                                class="fa-solid fa-scale-balanced"></i> Términos y Condiciones</a></li>
+                    <li><a href="javascript:void(0)" onclick="openLegalModal('privacy')"><i
+                                class="fa-solid fa-user-shield"></i> Política de Privacidad</a></li>
+                    <li><a href="javascript:void(0)" onclick="openLegalModal('refunds')"><i
+                                class="fa-solid fa-rotate-left"></i> Política de Retracto</a></li>
+                </ul>
+
+                <div class="footer-sic-badge">
+                    <p>Protección y vigilancia del consumidor en Colombia conforme a la Ley 1480 de 2011.</p>
+                    <a href="https://www.sic.gov.co" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <span>Superintendencia de Industria y Comercio (SIC)</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div>
+                © 2026 SERVIPRO EA SAS — Conexiate. Todos los derechos reservados.
+            </div>
+            <div>
+                Plataforma Tecnológica de Beneficios y Fidelización
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== BOTÓN FLOTANTE WHATSAPP ===== -->
+    <a href="https://wa.me/573146388529?text=Hola%20Conexiate,%20deseo%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20plataforma%20y%20beneficios."
+        class="whatsapp-float" target="_blank" title="Chatea con nosotros por WhatsApp"
+        aria-label="WhatsApp Soporte Conexiate">
+        <img src="./img/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <!-- ===== MODAL LEGAL INTERACTIVO (TÉRMINOS / HABEAS DATA / RETRACTO) ===== -->
+    <div class="legal-modal-overlay" id="legalModalOverlay">
+        <div class="legal-modal-content">
+            <div class="legal-modal-header">
+                <h3 id="legalModalTitle">Marco Jurídico Conexiate</h3>
+                <button class="legal-modal-close" onclick="closeLegalModal()" aria-label="Cerrar">&times;</button>
+            </div>
+            <div class="legal-modal-body" id="legalModalBody">
+                <!-- Se llena dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script>
+        // Toggle Menú Móvil
+        const menuToggle = document.getElementById('menuToggle');
+        const mainNavbar = document.getElementById('mainNavbar');
+        const mobileCtaWrapper = document.querySelector('.mobile-cta-wrapper');
+
+        menuToggle.addEventListener('click', () => {
+            mainNavbar.classList.toggle('active');
+            if (mobileCtaWrapper) {
+                mobileCtaWrapper.style.display = mainNavbar.classList.contains('active') ? 'block' : 'none';
+            }
+        });
+
+        // Contenidos Legales para el Modal
+        const legalData = {
+            terms: {
+                title: "Términos y Condiciones de Uso — Conexiate",
+                html: `
+                    <h4>1. Responsable del Servicio</h4>
+                    <p><strong>Razón Social:</strong> SERVIPRO EA SAS<br>
+                    <strong>NIT:</strong> 901768996-5<br>
+                    <strong>Domicilio:</strong> Pereira, Risaralda, Colombia<br>
+                    <strong>Contacto Oficial:</strong> soporte@conexiate.co | Tel: +57 314 638 8529</p>
+                    
+                    <h4>2. Objeto de la Plataforma</h4>
+                    <p>Conexiate es una plataforma multicliente que conecta a afiliados con una red de negocios aliados, facilitando la redención de cupones, beneficios, promociones exclusivas, programas de fidelización comercial y rifas promocionales supervisadas.</p>
+
+                    <h4>3. Membresías y Pagos</h4>
+                    <p>Todos los pagos de membresía se procesan mediante pasarelas certificadas bajo estándar PCI-DSS (Wompi Bancolombia). SERVIPRO EA SAS no almacena datos de tarjetas ni medios de pago.</p>
+
+                    <h4>4. Responsabilidad sobre Beneficios</h4>
+                    <p>Conexiate actúa como intermediario tecnológico publicitario. Los comercios aliados son los responsables exclusivos por la calidad, idoneidad y garantía de los bienes o servicios suministrados en sus establecimientos, conforme a la Ley 1480 de 2011.</p>
+                `
+            },
+            privacy: {
+                title: "Política de Privacidad y Tratamiento de Datos (Habeas Data)",
+                html: `
+                    <h4>Cumplimiento Ley 1581 de 2012 y Decreto 1377 de 2013</h4>
+                    <p><strong>SERVIPRO EA SAS (NIT: 901768996-5)</strong> es el responsable del tratamiento de los datos personales suministrados por los usuarios y comercios aliados.</p>
+                    
+                    <h4>Finalidad de los Datos</h4>
+                    <ul>
+                        <li>Gestión de registro y autenticación en la plataforma web y móvil.</li>
+                        <li>Generación y validación de códigos de beneficios en comercios aliados.</li>
+                        <li>Envío de notificaciones de cuenta, pagos y promociones autorizadas.</li>
+                        <li>Atención a peticiones, quejas y reclamos (PQR).</li>
+                    </ul>
+
+                    <h4>Derechos del Titular</h4>
+                    <p>El titular podrá conocer, actualizar, rectificar y suprimir sus datos en cualquier momento escribiendo al correo oficial: <strong>soporte@conexiate.co</strong>.</p>
+                `
+            },
+            refunds: {
+                title: "Política de Devoluciones y Derecho de Retracto",
+                html: `
+                    <h4>Derecho de Retracto (Art. 47 Ley 1480 de 2011)</h4>
+                    <p>Para compras de membresías digitales realizadas a través de métodos no tradicionales o a distancia (como nuestra plataforma web), el usuario tiene derecho a retractarse dentro de los <strong>cinco (5) días hábiles</strong> siguientes a la fecha de compra, siempre que no haya hecho uso de los beneficios exclusivos o redimido cupones durante dicho lapso.</p>
+
+                    <h4>Procedimiento</h4>
+                    <p>Para ejercer el retracto, envíe un correo a <strong>soporte@conexiate.co</strong> con su número de documento, comprobante de pago y motivo. La devolución del dinero se realizará en un plazo máximo de treinta (30) días calendario conforme a la ley colombiana.</p>
+                `
+            }
+        };
+
+        function openLegalModal(type) {
+            const modal = document.getElementById('legalModalOverlay');
+            const title = document.getElementById('legalModalTitle');
+            const body = document.getElementById('legalModalBody');
+
+            if (legalData[type]) {
+                title.textContent = legalData[type].title;
+                body.innerHTML = legalData[type].html;
+                modal.classList.add('active');
+            }
+        }
+
+        function closeLegalModal() {
+            document.getElementById('legalModalOverlay').classList.remove('active');
+        }
+
+        // Cerrar modal al dar clic fuera del contenido
+        document.getElementById('legalModalOverlay').addEventListener('click', function (e) {
+            if (e.target === this) {
+                closeLegalModal();
+            }
+        });
+    </script>
+
+</body>
+
+</html>

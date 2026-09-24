@@ -1,0 +1,122 @@
+/* ==========================================================================
+   CONEXIATE - NOSOTROS & QUIÉNES SOMOS STYLES
+   ========================================================================== */
+
+@import url("./styles.css");
+
+/* HERO ESPECÍFICO DE NOSOTROS */
+.hero-nosotros {
+  min-height: 52vh;
+  background: url("../img/hero3.png") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero-nosotros .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 8, 24, 0.78) 0%, rgba(10, 8, 24, 0.95) 100%);
+  backdrop-filter: blur(5px);
+}
+
+.intro-nosotros {
+  max-width: 960px;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 1.18rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+}
+
+.intro-nosotros strong {
+  color: var(--primary-cyan);
+}
+
+/* GRID DE ACTORES DEL ECOSISTEMA */
+.actors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  margin: 40px 0 70px;
+}
+
+.actor-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg);
+  padding: 35px 25px;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.actor-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--border-glow);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
+}
+
+.actor-card i {
+  font-size: 42px;
+  color: var(--primary-cyan);
+  margin-bottom: 18px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.actor-card:hover i {
+  transform: scale(1.12);
+}
+
+.actor-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.actor-card p {
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* VALORES CORPORATIVOS & COMPROMISO */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  margin: 40px 0;
+}
+
+.value-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+  padding: 30px 24px;
+  transition: var(--transition);
+}
+
+.value-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(108, 99, 255, 0.4);
+}
+
+.value-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--primary-teal);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.value-card p {
+  color: #94a3b8;
+  font-size: 14px;
+  line-height: 1.6;
+}
